@@ -1,0 +1,10 @@
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\bin\Debug\UserMaintenance.exe.config
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\bin\Debug\UserMaintenance.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\bin\Debug\UserMaintenance.pdb
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.csprojAssemblyReference.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.Properties.Resources.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.csproj.GenerateResource.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.pdb
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.Form1.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\UserMaintenance\UserMaintenance\obj\Debug\UserMaintenance.Resource1.resources
