@@ -101,7 +101,32 @@ namespace Excel
              GetCell(2, 1),
              GetCell(1 + values.GetLength(0), values.GetLength(1))).Value2 = values;
 
+            Excel.Range headerRange = xlSheet.get_Range(GetCell(1, 1), GetCell(1, headers.Length));
+            headerRange.Font.Bold = true;
+            headerRange.VerticalAlignment = Excel.XlVAlign.xlVAlignCenter;
+            headerRange.HorizontalAlignment = Excel.XlHAlign.xlHAlignCenter;
+            headerRange.EntireColumn.AutoFit();
+            headerRange.RowHeight = 40;
+            headerRange.Interior.Color = Color.LightBlue;
+            headerRange.BorderAround2(Excel.XlLineStyle.xlContinuous, Excel.XlBorderWeight.xlThick);
+
+            int lastRowID = xlSheet.UsedRange.Rows.Count;
+            Excel.Range LeftBald= xlSheet.get_Range(GetCell(1, 1), GetCell(1,lastRowID));
+            LeftBald.BorderAround2(Excel.XlLineStyle.xlContinuous, Excel.XlBorderWeight.xlThick);
+            Excel.Range RightBald = xlSheet.get_Range(GetCell(lastRowID, 1), GetCell(lastRowID, lastRowID));
+            RightBald.BorderAround2(Excel.XlLineStyle.xlContinuous, Excel.XlBorderWeight.xlThick);
+            Excel.Range DownBald = xlSheet.get_Range(GetCell(1, lastRowID), GetCell(lastRowID, lastRowID));
+            DownBald.BorderAround2(Excel.XlLineStyle.xlContinuous, Excel.XlBorderWeight.xlThick);
+
+            Excel.Range FirstColumn = xlSheet.get_Range(GetCell(1, 2), GetCell(1, lastRowID));
+            FirstColumn.Interior.Color = Color.LightYellow;
+            FirstColumn.Font.Bold = true;
+
+            Excel.Range LastColumn = xlSheet.get_Range(GetCell(1, lastRowID), GetCell(lastRowID, lastRowID));
+            LastColumn.Interior.Color = Color.LightGreen;
+            LastColumn.Round = -2;
         }
+
 
         private void CreateExcel()
         {
