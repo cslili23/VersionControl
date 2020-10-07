@@ -1,0 +1,13 @@
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\VaR.dll.config
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\VaR.dll
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\VaR.pdb
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\EntityFramework.dll
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\EntityFramework.SqlServer.dll
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\EntityFramework.xml
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\bin\Debug\EntityFramework.SqlServer.xml
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\obj\Debug\VaR.csprojAssemblyReference.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\obj\Debug\VaR.Form1.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\obj\Debug\VaR.csproj.GenerateResource.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\obj\Debug\VaR.csproj.CopyComplete
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\obj\Debug\VaR.dll
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\VaR\VaR\obj\Debug\VaR.pdb
