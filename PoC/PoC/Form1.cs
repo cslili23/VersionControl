@@ -18,6 +18,7 @@ namespace PoC
     {
         BindingList<RateData> Rates = new BindingList<RateData>();
         private string result;
+        BindingList<string> Currencies = new BindingList<string>();
 
         public Form1()
         {
