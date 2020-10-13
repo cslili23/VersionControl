@@ -1,0 +1,9 @@
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\bin\Debug\PoC.exe.config
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\bin\Debug\PoC.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\bin\Debug\PoC.pdb
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\obj\Debug\PoC.csprojAssemblyReference.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\obj\Debug\PoC.Form1.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\obj\Debug\PoC.Properties.Resources.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\obj\Debug\PoC.csproj.GenerateResource.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\obj\Debug\PoC.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\PoC\PoC\obj\Debug\PoC.pdb
