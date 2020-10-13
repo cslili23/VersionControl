@@ -1,4 +1,5 @@
-﻿using PoC.MnbServiceReference;
+﻿using PoC.Entities;
+using PoC.MnbServiceReference;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -13,9 +14,12 @@ namespace PoC
 {
     public partial class Form1 : Form
     {
+        BindingList<RateData> Rates = new BindingList<RateData>();
         public Form1()
         {
             InitializeComponent();
+         
+            dataGridView1.DataSource = Rates;
 
             var mnbService = new MNBArfolyamServiceSoapClient();
 
