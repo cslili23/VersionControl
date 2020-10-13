@@ -22,19 +22,28 @@ namespace PoC
         public Form1()
         {
             InitializeComponent();
-         
+
+            RefreshData();
+
+            CreateXml();
+
+        }
+
+        private void RefreshData()
+        {
+            Rates.Clear();
             dataGridView1.DataSource = Rates;
 
             var mnbService = new MNBArfolyamServiceSoapClient();
 
             var request = new GetExchangeRatesRequestBody()
             {
-                currencyNames = "EUR",
-                startDate = "2020-01-01",
-                endDate = "2020-06-30"
+                currencyNames =comboBox1.SelectedItem as string,
+                startDate = dateTimePicker1.Value as string,
+                endDate = dateTimePicker2.Value as string,
             };
 
-            
+
             var response = mnbService.GetExchangeRates(request);
 
             chartRateData.DataSource = Rates;
@@ -52,10 +61,8 @@ namespace PoC
             chartArea.AxisX.MajorGrid.Enabled = false;
             chartArea.AxisY.MajorGrid.Enabled = false;
             chartArea.AxisY.IsStartedFromZero = false;
-
-            CreateXml();        
-
         }
+
         private void CreateXml()
         {
             var xml = new XmlDocument();
@@ -83,5 +90,19 @@ namespace PoC
             }
         }
 
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
+        {
+            RefreshData();
+        }
+
+        private void dateTimePicker2_ValueChanged(object sender, EventArgs e)
+        {
+            RefreshData();
+        }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            RefreshData();
+        }
     }
 }
