@@ -44,6 +44,7 @@ namespace Mikroszimultacio
 
                 return population;
             }
+            Random rng = new Random(1234);
 
         }
     }
