@@ -28,5 +28,6 @@ namespace jatekgyar.Abstraction
         {
             Left += 1;
         }
+       
     }
 }
