@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstraction\Ball.cs" />
+    <Compile Include="Abstraction\IToyFactory.cs" />
     <Compile Include="Entities\Ball.cs" />
     <Compile Include="Entities\BallFactory.cs" />
     <Compile Include="Entities\Car.cs" />
