@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Abstraction\Ball.cs" />
     <Compile Include="Entities\Ball.cs" />
     <Compile Include="Entities\BallFactory.cs" />
     <Compile Include="Form1.cs">
