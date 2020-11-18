@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using Fluent.Infrastructure.FluentController;
+using NUnit.Framework;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,11 @@ namespace UnitTestExample.Test
         [Test]
         public void TestValidateEmail(string email, bool expectedResult)
         {
-           
+            var accountController = new AccountController();
+
+            var actualResult = accountController.ValidateEmail(email);
+
+            Assert.AreEqual(expectedResult, actualResult);
         }
     }
 }
