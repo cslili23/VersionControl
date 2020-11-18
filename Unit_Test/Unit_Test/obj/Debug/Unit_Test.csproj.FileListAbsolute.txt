@@ -1,0 +1,8 @@
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\bin\Debug\Unit_Test.exe.config
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\bin\Debug\Unit_Test.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\bin\Debug\Unit_Test.pdb
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\obj\Debug\Unit_Test.csprojAssemblyReference.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\obj\Debug\Unit_Test.Properties.Resources.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\obj\Debug\Unit_Test.csproj.GenerateResource.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\obj\Debug\Unit_Test.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Unit_Test\Unit_Test\obj\Debug\Unit_Test.pdb
