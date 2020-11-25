@@ -1,0 +1,10 @@
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\bin\Debug\Evoluvios_algoritmus.exe.config
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\bin\Debug\Evoluvios_algoritmus.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\bin\Debug\Evoluvios_algoritmus.pdb
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\bin\Debug\WorldsHardestGame.dll
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\obj\Debug\Evoluvios_algoritmus.csprojAssemblyReference.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\obj\Debug\Evoluvios_algoritmus.Properties.Resources.resources
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\obj\Debug\Evoluvios_algoritmus.csproj.GenerateResource.cache
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\obj\Debug\Evoluvios_algoritmus.csproj.CopyComplete
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\obj\Debug\Evoluvios_algoritmus.exe
+d:\Users\Lili\Desktop\Corvinus 2020\IRF\github\Evoluvios_algoritmus\Evoluvios_algoritmus\obj\Debug\Evoluvios_algoritmus.pdb

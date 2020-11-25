@@ -20,7 +20,10 @@ namespace Evoluvios_algoritmus
             InitializeComponent();
 
             ga = gc.ActivateDisplay();
+            gc.AddPlayer();
+            gc.Start(true);
             this.Controls.Add(ga);
+            
         }
     }
 }
