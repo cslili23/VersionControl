@@ -54,6 +54,18 @@ namespace IRF_Project
                         catch (Exception) { }
                     }
                 }
+
+                foreach(var video in videos)
+                {
+                    string[] data = new string[5];
+                    data[0] = video.Title;
+                    data[1] = video.Type;
+                    data[2] = video.ReleaseYear.ToString();
+                    data[3] = video.Duration;
+                    data[4] = video.Country;
+                    
+                    dataGridView.Rows.Add(data);
+                }
             }
         }
 
