@@ -135,6 +135,11 @@ namespace IRF_Project
                 xlApp.Visible = true;
                 xlApp.UserControl = true;
                 xlWB.SaveAs("selected_videos");
+
+                xlWB.Close(false, System.Type.Missing, System.Type.Missing);
+                xlApp.Quit();
+                xlWB = null;
+                xlApp = null;
             }
             catch (Exception ex)
             {
@@ -145,6 +150,18 @@ namespace IRF_Project
                 xlApp.Quit();
                 xlWB = null;
                 xlApp = null;
+            }
+        }
+
+        private void Delete_Click(object sender, EventArgs e)
+        {
+            for (int i = videos.Count - 1; i >= 0; i--)
+            {
+                if (videos[i].ReleaseYear == numericUpDown1.Value)
+                {
+                    videos.RemoveAt(i);
+                    dataGridView.Rows.RemoveAt(i);
+                }
             }
         }
     }
