@@ -36,6 +36,7 @@
             this.ReleaseYear = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Duration = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Country = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.export = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -93,11 +94,22 @@
             this.Country.HeaderText = "Country";
             this.Country.Name = "Country";
             // 
+            // export
+            // 
+            this.export.Location = new System.Drawing.Point(669, 12);
+            this.export.Name = "export";
+            this.export.Size = new System.Drawing.Size(75, 23);
+            this.export.TabIndex = 2;
+            this.export.Text = "Export";
+            this.export.UseVisualStyleBackColor = true;
+            this.export.Click += new System.EventHandler(this.export_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.export);
             this.Controls.Add(this.dataGridView);
             this.Controls.Add(this.button1);
             this.Name = "Form1";
@@ -117,6 +129,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn ReleaseYear;
         private System.Windows.Forms.DataGridViewTextBoxColumn Duration;
         private System.Windows.Forms.DataGridViewTextBoxColumn Country;
+        private System.Windows.Forms.Button export;
     }
 }
 
