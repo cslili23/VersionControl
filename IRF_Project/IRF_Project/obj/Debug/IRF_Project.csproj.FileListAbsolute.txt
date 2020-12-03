@@ -1,0 +1,9 @@
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\bin\Debug\IRF_Project.exe.config
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\bin\Debug\IRF_Project.exe
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\bin\Debug\IRF_Project.pdb
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\obj\Debug\IRF_Project.csprojAssemblyReference.cache
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\obj\Debug\IRF_Project.Form1.resources
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\obj\Debug\IRF_Project.Properties.Resources.resources
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\obj\Debug\IRF_Project.csproj.GenerateResource.cache
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\obj\Debug\IRF_Project.exe
+d:\Users\Lili\Desktop\Corvinus2020\IRF\github\IRF_Project\IRF_Project\obj\Debug\IRF_Project.pdb
