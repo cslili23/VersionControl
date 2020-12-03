@@ -1,0 +1,8 @@
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\bin\Debug\Lili.exe.config
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\bin\Debug\Lili.exe
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\bin\Debug\Lili.pdb
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\obj\Debug\Lili.csprojAssemblyReference.cache
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\obj\Debug\Lili.Properties.Resources.resources
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\obj\Debug\Lili.csproj.GenerateResource.cache
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\obj\Debug\Lili.exe
+D:\Users\Lili\Desktop\Corvinus 2020\IRF\Lili\Lili\obj\Debug\Lili.pdb
