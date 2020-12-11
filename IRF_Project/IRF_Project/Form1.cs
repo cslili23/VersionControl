@@ -13,7 +13,6 @@ namespace IRF_Project
     public partial class Form1 : Form
     {
         private List<Video> videos = new List<Video>();
-        private object headers;
 
         public Form1()
         {
@@ -54,7 +53,7 @@ namespace IRF_Project
                     }
                 }
 
-                foreach(var video in videos)
+                foreach (var video in videos)
                 {
                     string[] data = new string[5];
                     data[0] = video.Title;
@@ -62,7 +61,7 @@ namespace IRF_Project
                     data[2] = video.ReleaseYear.ToString();
                     data[3] = video.Duration;
                     data[4] = video.Country;
-                    
+
                     dataGridView.Rows.Add(data);
                 }
             }
@@ -71,7 +70,7 @@ namespace IRF_Project
         private Category GetCategory(string year)
         {
             int category = int.Parse(year);
-            if (category < 2000)
+            if (category < 2010)
             {
                 return Category.Old;
             }
