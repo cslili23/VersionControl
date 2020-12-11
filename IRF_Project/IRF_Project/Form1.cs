@@ -12,6 +12,7 @@ namespace IRF_Project
     public partial class Form1 : Form
     {
         private List<Video> videos = new List<Video>();
+        private object headers;
 
         public Form1()
         {
@@ -127,8 +128,35 @@ namespace IRF_Project
 
                 xlSheet = xlWB.ActiveSheet;
 
+                string[] headers = new string[] {
+                "Típus",
+                "Cím",
+                "Rendező",
+                "Színészek",
+                "Ország",
+                "Hozzáadás dátuma",
+                "Kiadás dátuma",
+                "Értékelés",
+                "Hossz",
+                "Besorolás",
+                "Leírás",
+                "Kategória megjelenés éve szerint" };
+
+                xlSheet.Cells[1, 1] = headers[0];
+                xlSheet.Cells[1, 2] = headers[1];
+                xlSheet.Cells[1, 3] = headers[2];
+                xlSheet.Cells[1, 4] = headers[3];
+                xlSheet.Cells[1, 5] = headers[4];
+                xlSheet.Cells[1, 6] = headers[5];
+                xlSheet.Cells[1, 7] = headers[6];
+                xlSheet.Cells[1, 8] = headers[7];
+                xlSheet.Cells[1, 9] = headers[6];
+                xlSheet.Cells[1, 10] = headers[9];
+                xlSheet.Cells[1, 11] = headers[10];
+                xlSheet.Cells[1, 12] = headers[11];
+
                 xlSheet.get_Range(
-                    GetCell(1, 1),
+                    GetCell(2, 1),
                     GetCell(values.GetLength(0), values.GetLength(1))).Value2 = values;
 
 
